@@ -1,0 +1,26 @@
+//===========================================
+	// -Variables start
+//===========================================
+
+// Colors start
+$white:			#fff; //white
+$black:			#000; //black
+$mine-shaft:	#3a3a3a; // dark gray
+$maroon-flush:	#d3205a; // Default Brand Color
+
+// Typography
+$font-default:	'Roboto', sans-serif;
+$font-primery:	'ostrichsansinlineregular', sans-serif;
+
+// Break Pointss
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+//===========================================
+	// -Variables end
+//===========================================

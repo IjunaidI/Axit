@@ -1,0 +1,74 @@
+body,html{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    min-height: 62px;
+    padding: 12px;;
+    
+}
+.navbar{
+    width: 90%;
+    margin:0 auto;
+}
+.logo{
+    height: 28px;;
+}
+.logo-pos{
+    margin-top: 16px;
+    float: left;
+}
+li {
+    float: right;
+    margin-top: 10px;
+}
+
+li a {
+    display: block;
+    color: #979797;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+div.container{
+    background-image: url(images/u2_state0.jpg);
+    background-size: cover;     
+    background-repeat: no-repeat;
+    height: 620px;
+    background-position: center center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.active {
+    background-color: #4CAF50;
+}
+@media screen and (max-width: 600px){
+    div.navbar li.logo, div.navbar li {
+        float: none;
+    }
+    li.logo{
+        margin: 0 auto;
+    }
+}
