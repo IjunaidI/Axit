@@ -2,6 +2,43 @@
 	// -Navbar start
 //===========================================
 
+.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: $black;
+	height: 72px;
+	text-align: center;
+}
+.navbar{
+	margin: 0 auto;
+	width: 90%;
+	height: 72px;
+	text-align: center;
+}
+.nav-item{
+	float: right;
+	margin-top: 12px;
+}
+.logo{
+	height: 27px;
+}
+.logo-pos{
+	margin-top: 22px;
+	float: left;
+}
+.nav-item a {
+	color: $text-grey;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
 //===========================================
 	// -Navbar end
 //===========================================

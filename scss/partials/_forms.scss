@@ -2,7 +2,12 @@
     // -Forms Start
 //===========================================
 
-
+.form-input{
+    border: none;
+    border-bottom: 1px solid $text-grey;
+    background-color: transparent;
+    outline: none;
+}
 //===========================================
     // -Forms end
 //===========================================

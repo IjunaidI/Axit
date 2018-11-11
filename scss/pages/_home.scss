@@ -1,7 +1,106 @@
 //===========================================
 	// -Home Page start
 //===========================================
+.btn-special{
+	border: 2px solid white;
+	height: 42px;
+	width: 135px;
+	text-align: center;
+	font-size: 15px;
+	background-color: transparent;
+	color: $white;	
+	margin-top: 20px;
+}
+.social{
+	height: 138px;
+}
+.social-content{
+	width: 30%;
+	float: left;
+}
 
+.social-content h2{
+	font-weight: bold;	
+	margin: 20px 0 12px 0;
+}
+.social-content p{
+	color: $text-grey;
+	font-size: 18px;
+	margin: 0 0 12px 0;
+}
+.social-logo{
+	float: right;
+	margin-top: 30px;
+}
+.social-icons{
+	padding: 10px 0 0 40px;
+}
+.tabs{
+ background-color: rgb(241, 241, 241);
+ height: 600px;
+ display: block;
+ padding: 160px 60px 0 60px;
+}
+.tabs-container{
+	width: 155px;;
+	float: left;
+	clear: left ;
+}
+.tab{
+	background-color: $scheme-black;
+	padding: 20px;
+	width: 112px;
+	height: 112px;
+	text-align: center;
+	margin: 1px;
+	
+}
+.tab h2{
+	margin-top: 50%;
+	transform: translateY(-50%);
+	color: white;
+}
+.tabs-content{
+	width: 50%;
+	margin-left: 82px;
+	float: left;
+}
+.tabs-content h2{
+	margin-bottom: 72px;
+}
+
+.tabs-content button{
+	padding: 20px 38px;
+	border-radius: 3px;
+	margin-top: 38px;
+}
+.tabs img{
+	float: right;
+	height: 280px;
+	margin-top: 32px
+}
+.details{
+	height: 600px;
+	width: 100%;
+}
+.details-image{
+	float: left;
+}
+.detail-content{
+	float: right;
+	width: 40%;
+}
+.details hr{
+	border: 2px solid $scheme-orange;
+}
+.detail-text{
+	display: inline-block;
+	margin-top: -20px;
+}
+.detail-list img{
+	margin-bottom: 30px;
+	margin-right: 42px;
+}
 //===========================================
 	// -Home Page end
 //===========================================

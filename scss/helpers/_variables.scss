@@ -7,10 +7,16 @@ $white:			#fff; //white
 $black:			#000; //black
 $mine-shaft:	#3a3a3a; // dark gray
 $maroon-flush:	#d3205a; // Default Brand Color
-
+$text-grey:#afafaf;
+$scheme-black:#333333;
+$scheme-orange: #fe9a50;
+$general-padding: 20px 0;
+$icon-size: 46px;
 // Typography
 $font-default:	'Roboto', sans-serif;
 $font-primery:	'ostrichsansinlineregular', sans-serif;
+$main-heading: 36px;
+$container: 90%;
 
 // Break Pointss
 $grid-breakpoints: (

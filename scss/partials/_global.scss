@@ -22,7 +22,25 @@ html, body {
     font-size: 16px;
   }
 }
-
+.container {
+   width: $container;
+   margin: 0 auto;
+  }
+.line-width{
+  width: 62px;
+  margin: 0 100% 30px 0;
+}
+.social-icons{
+  font-size: $icon-size;
+  color: $text-grey;
+}
+.active{
+  background-color: $scheme-orange!important;
+}
+.grey-p{
+  color:$text-grey;
+	font-size: 18px;
+}
 //=======================================================
 	// -Global style  end
 //=======================================================
