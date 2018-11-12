@@ -1,46 +1,78 @@
 //=======================================================
-	// -Global style start
+// -Global style start
 //=======================================================
-
 
 // Default style start
 
-html, body {
+html,
+body {
   font-family: $font-default;
-	font-size: 8px;
-	
-	@include mq('sm', min) {
+  font-size: 8px;
+
+  @include mq("sm", min) {
     font-size: 10px;
   }
-	@include mq('md', min) {
+  @include mq("md", min) {
     font-size: 12px;
   }
-	@include mq('lg', min) {
+  @include mq("lg", min) {
     font-size: 14px;
   }
-  @include mq('xl', min) {
+  @include mq("xl", min) {
     font-size: 16px;
   }
 }
 .container {
-   width: $container;
-   margin: 0 auto;
-  }
-.line-width{
+  width: $container;
+  margin: 0 auto;
+}
+.line-width {
   width: 62px;
   margin: 0 100% 30px 0;
 }
-.social-icons{
+.line-scheme{
+  margin: 0 auto!important;
+	border: 1px solid $scheme-orange;
+}
+.social-icons {
   font-size: $icon-size;
   color: $text-grey;
 }
-.active{
-  background-color: $scheme-orange!important;
+.active {
+  background-color: $scheme-orange !important;
 }
-.grey-p{
-  color:$text-grey;
-	font-size: 18px;
+.grey-p {
+  color: $text-grey!important;
+  font-size: 18px;
+}
+.background-grey{
+  background-color: #f1f1f1;
+}
+.side-spacing {
+  margin-left: $spacing-margin;
+  margin-right: $spacing-margin;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.raleway{
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  color: #212121;
+  line-height: 20px;
+  text-align: center;
+}
+.open-sans{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
 }
 //=======================================================
-	// -Global style  end
+// -Global style  end
 //=======================================================

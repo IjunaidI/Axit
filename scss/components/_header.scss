@@ -17,7 +17,7 @@
 	padding-top: 92px;
 }
 .banner-content{
-	width: 50%;
+	width: rem(520);
 	float: left;
 	clear: left;
 	display: inline-block;
@@ -36,7 +36,7 @@
 	color: $text-grey;
 }
 .banner-card{
-	width: 35%;
+	width: rem(360);
 	border: 1px solid $text-grey;
 	display: inline-block;
 	background-color: white;

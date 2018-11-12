@@ -1,106 +1,267 @@
 //===========================================
-	// -Home Page start
+// -Home Page start
 //===========================================
-.btn-special{
-	border: 2px solid white;
-	height: 42px;
-	width: 135px;
-	text-align: center;
-	font-size: 15px;
-	background-color: transparent;
-	color: $white;	
-	margin-top: 20px;
+
+.social {
+  height: 138px;
 }
-.social{
-	height: 138px;
-}
-.social-content{
-	width: 30%;
-	float: left;
+.social-content {
+  width: 30%;
+  float: left;
 }
 
-.social-content h2{
-	font-weight: bold;	
-	margin: 20px 0 12px 0;
+.social-content h2 {
+  font-weight: bold;
+  margin: 20px 0 12px 0;
 }
-.social-content p{
-	color: $text-grey;
-	font-size: 18px;
-	margin: 0 0 12px 0;
+.social-content p {
+  color: $text-grey;
+  font-size: 18px;
+  margin: 0 0 12px 0;
 }
-.social-logo{
-	float: right;
-	margin-top: 30px;
+.social-logo {
+  float: right;
+  margin-top: 30px;
 }
-.social-icons{
-	padding: 10px 0 0 40px;
+.social-icons {
+  padding: 10px 0 0 40px;
 }
-.tabs{
- background-color: rgb(241, 241, 241);
- height: 600px;
- display: block;
- padding: 160px 60px 0 60px;
+.tabs {
+  background-color: rgb(241, 241, 241);
+  height: 600px;
+  display: block;
+  padding: 160px 60px 0 60px;
 }
-.tabs-container{
-	width: 155px;;
-	float: left;
-	clear: left ;
+.tabs-container {
+  width: 155px;
+  float: left;
+  clear: left;
 }
-.tab{
-	background-color: $scheme-black;
-	padding: 20px;
-	width: 112px;
-	height: 112px;
+.tab {
+  background-color: $scheme-black;
+  padding: 20px;
+  width: 112px;
+  height: 112px;
+  text-align: center;
+  margin: 1px;
+}
+.tab h2 {
+  margin-top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+.tabs-content {
+  width: 50%;
+  margin-left: 82px;
+  float: left;
+}
+.tabs-content h2 {
+  margin-bottom: 72px;
+}
+
+.tabs-content button {
+  padding: 20px 38px;
+  border-radius: 3px;
+  margin-top: 38px;
+}
+.tabs img {
+  float: right;
+  width: 25%;
+  margin-top: 32px;
+}
+.details {
+  height: 600px;
+}
+.details-image img {
+  width: 100%;
+  margin-top: 30px;
+}
+.details-content {
+  width: 40%;
+ 
+}
+.details-container {
+  margin-top: 100px;
+  height: 100%;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+.details hr {
+  border: 2px solid $scheme-orange;
+}
+.detail-text {
+  display: inline-block;
+  margin-top: -20px;
+  clear: both;
+
+}
+.detail-list img {
+  margin-bottom: 30px;
+  margin-right: 42px;
+}
+.faq-section{
+	width: 100%;
 	text-align: center;
-	margin: 1px;
-	
 }
-.tab h2{
-	margin-top: 50%;
-	transform: translateY(-50%);
+
+
+.faq-section p {
+	color: $text-grey;
+	font-size: 14px;
+}
+.faq-section h3{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.faq-section h1{
+	margin: 32px;
+}
+.faq-container{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.faq-p{
+	margin:32px;
+}
+.icon-boxes{
+	margin: 92px 10px 0 10px;
+}
+.icon-box{
+	width: 390px;
+	height: 200px;
+	display: inline-block;
+	margin: 0px 10px 0 10px;
+
+}
+.pricing {
+	text-align: center;
+}
+.pricing-container{
+	padding: 100px 0 100px 0;
+}
+.pricing h3{
+	margin: 0;
+	padding: 20px;
+	font-size: 26px;
+}
+.pricing-detail h1{
+	margin: 0;
+	padding: 20px;
+	padding-bottom: 0px;
+	font-size: 102px;
+	padding-bottom: 22px;
+}
+.pricing-detail span:nth-child(1){
+	font-size: 35px;
+}
+.pricing-detail{
+	background-color: $scheme-black;
+}
+.pricing-detail *{
 	color: white;
 }
-.tabs-content{
-	width: 50%;
-	margin-left: 82px;
-	float: left;
-}
-.tabs-content h2{
-	margin-bottom: 72px;
-}
-
-.tabs-content button{
-	padding: 20px 38px;
-	border-radius: 3px;
-	margin-top: 38px;
-}
-.tabs img{
-	float: right;
-	height: 280px;
-	margin-top: 32px
-}
-.details{
-	height: 600px;
-	width: 100%;
-}
-.details-image{
-	float: left;
-}
-.detail-content{
-	float: right;
-	width: 40%;
-}
-.details hr{
+.pricing-detail .break{
 	border: 2px solid $scheme-orange;
 }
-.detail-text{
+.pricing-cards{
+	margin-top: 100px;
+}
+.pricing-card{
 	display: inline-block;
-	margin-top: -20px;
+	width: 360px;
+	margin: 0 20px 0 20px;
 }
-.detail-list img{
-	margin-bottom: 30px;
-	margin-right: 42px;
+.pricing-list{
+	padding: 20px;
+	background: white;
 }
+.s-tag{
+	padding: 15px 0 15px 0;
+	background-color: $scheme-orange;
+	width: 100%;
+	color: black;
+	font-weight: bold;
+}
+.reviews-container{
+  text-align: center;
+  padding-top: rem(100);
+  padding-bottom: 100px;
+}
+.profile{
+	text-align: center;
+}
+.profile img{
+	float: left;
+}
+.profile p,h2{
+  margin: 0;
+}
+.review-card{
+	text-align: left;
+	width: 280px;
+	margin-right: 60px;
+	margin-left: 60px;
+	display: inline-block;
+}
+.review-card p{
+  padding: 5px;
+}
+.style-box{
+  height: 322px;
+  background-image: url(../images/u25_state0.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.style-box-container{
+  background-color: rgba(0, 0, 0, 0.514);
+  padding: rem(70) 0 55px 0;
+  text-align: center;
+}
+.style-box hr{
+  margin: 30px auto;
+  border: 1px solid white;
+}
+.style-box h1{
+  color: white;
+}
+.style-box p{
+  color: white;
+  margin-bottom: 10px;
+}
+.contact{
+  text-align: center;
+  padding: rem(105) 0  0 0;
+}
+.contact-text h1{
+  margin-bottom: rem(30)
+}
+.contact-input{
+  width: 100%;
+  height: rem(30);
+  margin: 25px 0;
+}
+.contact-input-lg{
+  width: 100%;
+  height: rem(190);
+  margin: 25px 0;
+}
+.form-sm{
+  margin-right: 60px;
+}
+.form-sm,.form-lg{
+  width: rem(535);
+  display: inline-block;
+}
+.contact button{
+  padding: rem(15) rem(25) rem(15) rem(25);
+  border-radius: 6px;
+  margin-bottom: rem(80);
+}
+.btn{
+  width: 100%;
+  margin-top:rem(45);
+}
+
 //===========================================
-	// -Home Page end
+// -Home Page end
 //===========================================
