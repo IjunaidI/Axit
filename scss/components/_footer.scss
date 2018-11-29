@@ -2,15 +2,19 @@
 	// -Footer start
 //===========================================
 footer{
-	height: 80px;
 	background-color: black;
 	text-align: center;
-	font-size: rem(28);
-	padding-top:rem(23);
+	font-size: rem(24);
+	padding: rem(23) 0 rem(10) 0;; 
 }
 .footer-icons{
 	color: white;
 	margin: rem(10) rem(15) 0 rem(15) ;
+}
+.footer-p{
+	font-family: $font-primery;
+	font-size: rem(12);
+	margin: rem(10) 0 0 0;
 }
 //===========================================
 	// -Footer end

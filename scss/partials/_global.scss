@@ -8,26 +8,59 @@ html,
 body {
   font-family: $font-default;
   font-size: 8px;
-
+  @include mq("xs", min) {
+    font-size: 10px;
+    .container {
+      max-width: 396px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
   @include mq("sm", min) {
     font-size: 10px;
+    .container {
+      max-width: 576px;
+      width: 100%;
+      margin: 0 auto;
+    }
   }
+
+  
   @include mq("md", min) {
     font-size: 12px;
+    .container {
+      max-width: 768px;
+      width: 100%;
+      margin: 0 auto;
+    }
   }
   @include mq("lg", min) {
     font-size: 14px;
+    .container {
+      max-width: 992px;
+      width: 100%;
+      margin: 0 auto;
+    }
   }
   @include mq("xl", min) {
     font-size: 16px;
+    .container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
   }
+
 }
+
+
 .container {
-  width: $container;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 .line-width {
-  width: 62px;
+  width: rem(62);
   margin: 0 100% 30px 0;
 }
 .line-scheme{
@@ -43,7 +76,6 @@ body {
 }
 .grey-p {
   color: $text-grey!important;
-  font-size: 18px;
 }
 .background-grey{
   background-color: #f1f1f1;
@@ -61,9 +93,9 @@ body {
 .raleway{
   font-weight: 400;
   font-family: 'Raleway', sans-serif;
-  font-size: 36px;
+  font-size: rem(36);
   color: #212121;
-  line-height: 20px;
+  line-height: 1;
   text-align: center;
 }
 .open-sans{
@@ -72,6 +104,34 @@ body {
 }
 .italic{
   font-style: italic;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.general-heading{
+  font-family: "Open Sans",sans-serif;
+  font-size: rem(20);
+  font-weight: bold;
+  color: #000;
+  padding-bottom: rem(5);
+}
+.display-block{
+  display: block!important;
+  -webkit-animation: slide-down .3s ease-out;
+  -moz-animation: slide-down .3s ease-out;
+}
+.display-none{
+  display: none!important;
+  -webkit-animation: slide-down .3s ease-out;
+  -moz-animation: slide-down .3s ease-out;
+
+}
+@include mq("lg", max){
+	p{
+		font-size: 16px!important;
+  }
 }
 //=======================================================
 // -Global style  end

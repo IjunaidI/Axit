@@ -1,64 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/fonts.css">
-      <link
-         href="https://fonts.googleapis.com/css?family=Roboto"
-         rel="stylesheet"
-         />
-      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-      <title>Document</title>
-   </head>
-   <body>
-      <ul class="main-nav">
-         <div class="navbar">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <link rel="stylesheet" type="text/css" href="scss/vendors/slick/slick/slick.css" />
+   <link rel="stylesheet" type="text/css" href="scss/vendors/slick/slick/slick-theme.css" />
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/fonts.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <script type="text/javascript" src="js/object.js"></script>
+   <title>Document</title>
+</head>
+
+<body>
+   <header class="main-nav">
+      <div class="container clearfix">
+         <div class="header-images clearfix">
+            <a class="logo-pos nav-item">
+               <img src="images/logo.png" class="logo" />
+            </a>
+            <div class="humburger" onclick="switchMenu()">
+               <img src="images/humbuger.png" alt="hamberger">
+            </div>
+            <div class="cross" onclick="switchMenu()">
+               <img src="images/cross.png" alt="cross">
+            </div>
+         </div>
+         <ul class="navbar ">
             <li class="nav-item"><a href="#home">Contact</a></li>
             <li class="nav-item"><a href="#news">Reviews</a></li>
             <li class="nav-item"><a href="#news">Pricing</a></li>
             <li class="nav-item"><a href="#news">About</a></li>
             <li class="nav-item"><a href="#contact">Features</a></li>
-            <li class="logo-pos nav-item">
-               <img src="images/logo.png" class="logo" />
-            </li>
+         </ul>
+      </div>
+   </header>
+   <div class="wrapper">
+      <div class="container banner-card-container">
+         <div class="banner-card">
+            <div class="card-head">
+               <h3>Try Your <span>FREE</span> Trial Today</span></h3>
+            </div>
+            <div class="input-section">
+               <input type="text" class="form-input" placeholder="Name" type="password" id="">
+               <input type="text" class="form-input" placeholder="Email" type="email" id="">
+               <input type="text" class="form-input" placeholder="Password" type="password" id="">
+            </div>
+            <button class="scheme-button">Get Started</button>
          </div>
-      </ul>
-      <div class="banner">
-         <div class="banner-container">
-            <div class="container">
-               <div class="banner-content">
-                  <img src="images/logo.png" alt="" />
-                  <h2>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
-                  <hr class="line-width" />
-                  <p>
-                     Lorem Ipsum is simply dummy text of the printing and typesetting
-                     industry. Lorem Ipsum has been the industry's standard dummy text
-                     industry. Lorem Ipsum has been the industry's standard dummy text.
-                  </p>
-                  <button class="btn-special">Download</button>
+      </div>
+      <div class='my-slider'>
+         <div class="banner slider1 clearfix">
+            <div class="banner-container ">
+               <div class="container clearfix">
+                  <div class="banner-content">
+                     <img src="images/logo.png" alt="logo" />
+                     <h2>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                     <hr class="line-width" />
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                     </p>
+                     <button class="btn-special">Download</button>
+                  </div>
                </div>
-               <div class="banner-card">
-                  <div class="card-head">
-                     <h3>Try Your <span>FREE</span> Trial Today</span></h3>
+            </div>
+         </div>
+         <div class="banner slider2 clearfix">
+            <div class="banner-container ">
+               <div class="container clearfix">
+                  <div class="banner-content">
+                     <img src="images/logo.png" alt="logo" />
+                     <h2>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                     <hr class="line-width" />
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                     </p>
+                     <button class="btn-special">Download</button>
                   </div>
-                  <div class="input-section container">
-                     <input type="text" class="form-input" placeholder="Name" type="password" id="">
-                     <input type="text" class="form-input" placeholder="Email" type="email" id="">
-                     <input type="text" class="form-input" placeholder="Password" type="password" id="">
-                  </div>
-                  <button class="scheme-button">Get Started</button>
                </div>
             </div>
          </div>
       </div>
-      <div class="social container">
+
+   </div>
+
+   <div class="social clearfix">
+      <div class="container clearfix">
          <div class="social-content">
-            <h2>Social Media</h2>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+            <h3 class="general-heading">Social Media</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
          </div>
          <div class="social-logo">
             <i class="icon-facebook social-icons"></i>
@@ -70,222 +108,230 @@
             <i class="icon-rss social-icons"></i>
          </div>
       </div>
-      <div class="tabs">
-         <div class="tabs-container">
-            <div class="tab active">
-               <h2>Tab #1</h2>
-            </div>
-            <div class="tab">
-               <h2>Tab #2</h2>
-            </div>
-            <div class="tab">
-               <h2>Tab #3</h2>
-            </div>
-         </div>
-         <div class="tabs-content">
-            <h2>Tabs with soft Transition effect.</h2>
-            <p class="grey-p">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper dui vel metus suscipit, non interdum mauris suscipit. Donec nec ullamcorper eros. Integer varius semper quam quis venenatis. Donec consequat purus est, a semper eros malesuada et. Ut efficitur tortor blandit scelerisque bibendum. a semper eros malesuada et. Ut efficitur tortor blandit scelerisque bibendum. 
-            </p>
-            <p class="grey-p">a semper eros malesuada et. Ut efficitur tortor blandit scelerisque bibendum. a semper eros malesuada et. Ut efficitur tortor blandit scelerisque bibendum. </p>
-            <button class="scheme-button">Download</button>
-         </div>
-         <img  src="images/image_right_u255.png" alt="">
+   </div>
+
+   <div class="tabs">
+      <div class="container clearfix all-tabs">
+         <ul class="tabs-container">
+         </ul>
+         <img src="images/image_right_u255.png" alt="buildings">
       </div>
-      <div class="details ">
-         <div class="details-container container ">
-            <div class="details-image float-left">
-               <img src="images/image_left_sub_list_u260.png" alt="">
-            </div>
-            <div class="details-content float-right">
-               <h2>Sub list section</h2>
-               <hr class="line-width">
-               <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper dui vel metus suscipit, non interdum mauris suscipit. Donec nec ullamcorper eros. Integer varius semper quam quis venenatis. Donec consequat purus est, a semper eros malesuada et. Ut efficitur tortor blandit. </p>
-               <div class="detail-list">
-                  <img src="images/upload.png" alt="">
-                  <div class="detail-text">
-                     <h3>Title</h3>
-                     <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcor</p>
-                  </div>
+   </div>
+   <div class="details">
+      <div class="details-container container clearfix">
+         <div class="details-image float-left">
+            <img src="images/image_left_sub_list_u260.png" alt="buidings">
+         </div>
+         <div class="details-content float-right">
+            <h2 class="general-heading">Sub list section</h2>
+            <hr class="line-width">
+            <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper dui vel metus
+               suscipit, non interdum mauris suscipit. Donec nec ullamcorper eros. Integer varius semper quam quis
+               venenatis. Donec consequat purus est, a semper eros malesuada et. Ut efficitur tortor blandit. </p>
+            <div class="detail-list">
+               <img src="images/upload.png" alt="upload">
+               <div class="detail-text">
+                  <h3>Title</h3>
+                  <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                     laoreet.</p>
                </div>
-               <div class="detail-list">
-                  <img src="images/upload.png" alt="">
-                  <div class="detail-text">
-                     <h3>Title</h3>
-                     <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcor</p>
-                  </div>
+            </div>
+            <div class="detail-list">
+               <img src="images/upload.png" alt="upload">
+               <div class="detail-text">
+                  <h3>Title</h3>
+                  <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
+                     laoreet.</p>
                </div>
             </div>
          </div>
       </div>
-      <div class="details background-grey">
-         <div class="details-container container">
-            <div class="details-image float-right">
-               <img src="images/image_left_sub_list_u260.png" alt="">
+   </div>
+   <div class="details background-grey">
+      <div class="details-container container clearfix">
+         <div class="details-image float-right">
+            <img src="images/image_left_sub_list_u260.png" alt="">
+         </div>
+         <div class="details-content float-left">
+            <h2 class="general-heading">Standrad Picture Section</h2>
+            <hr class="line-width ">
+            <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper dui vel metus
+               suscipit, non interdum mauris suscipit. Donec nec ullamcorper eros. Integer varius semper quam quis
+               venenatis. Donec consequat purus est, a semper eros malesuada et. Ut efficitur tortor blandit. </p>
+         </div>
+      </div>
+   </div>
+   <div class="faq-section">
+      <div class="faq-container container clearfix">
+         <div class="faq-text">
+            <h1 class="raleway">WHY THIS IS AWESOME</h1>
+            <hr class="line-width line-scheme ">
+            <p class="grey-text faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         </div>
+         <div class="icon-boxes clearfix">
+            <div class="icon-box float-left">
+               <img src="images/bulb.png" alt="bulb">
+               <h3 class="general-heading">Thoughtful Design</h3>
+               <p class="grey-text raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
             </div>
-            <div class="details-content float-left">
-               <h2>Standrad Picture Section</h2>
-               <hr class="line-width ">
-               <p class="grey-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper dui vel metus suscipit, non interdum mauris suscipit. Donec nec ullamcorper eros. Integer varius semper quam quis venenatis. Donec consequat purus est, a semper eros malesuada et. Ut efficitur tortor blandit. </p>
+            <div class="icon-box float-left">
+               <img src="images/keyboard.png" alt="keyboard">
+               <h3 class="general-heading">Thoughtful Design</h3>
+               <p class="grey-text raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+            </div>
+            <div class="icon-box float-left">
+               <img src="images/lighting.png" alt="lighting">
+               <h3 class="general-heading">Thoughtful Design</h3>
+               <p class="grey-text raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
             </div>
          </div>
       </div>
-      <div class="faq-section">
-         <div class="faq-container">
-            <div class="faq-text">
-               <h1 class="raleway">WHY THIS IS AWESOME</h1>
-               <hr class="line-width line-scheme ">
-               <p class="grey-text faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="icon-boxes">
-               <div class="icon-box">
-                  <img src="images/bulb.png" alt="">
-                  <h3 class="raleway">Thoughtful Design</h3>
-                  <p class="grey-text raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
-               </div>
-               <div class="icon-box">
-                  <img src="images/bulb.png" alt="">
-                  <h3 class="raleway">Thoughtful Design</h3>
-                  <p class="grey-text raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
-               </div>
-               <div class="icon-box">
-                  <img src="images/bulb.png" alt="">
-                  <h3 class="raleway">Thoughtful Design</h3>
-                  <p class="grey-text raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
-               </div>
-            </div>
+   </div>
+   <div class="pricing background-grey">
+      <div class="pricing-container container">
+         <div class="pricing-text">
+            <h1 class="raleway">PRICING OPTIONS</h1>
+            <hr class="line-width line-scheme">
+            <p class="grey-p faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
          </div>
-      </div>
-      <div class="pricing background-grey">
-        <div class="pricing-container">
-        <div class="pricing-text">
-          <h1 class="raleway">PRICING OPTIONS</h1>
-          <hr class="line-width line-scheme">
-          <p class="grey-p faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="pricing-cards">
-        <div class="pricing-card">
-            <div class="pricing-detail">
-            <h3 class="open-sans">Basic</h3>
-            <hr>
-            <h1 class="raleway"><span>$</span>0</h1>
-            <p class="grey-p italic open-sans">Free for Life</p>
-          <hr class="line-scheme break">
-          </div>
-            <div class="pricing-list-container">
-              <div class="pricing-list grey-p">1 GB OF SPACE</div>
-              <div class="pricing-list grey-p">10 GB OF BANDWIDTH</div>
-              <div class="pricing-list grey-p">BASIC CUSTOMIZATION</div>
-              <div class="pricing-list grey-p">WORDPRESS INTEGRATION</div>
-              <div class="pricing-list grey-p">EMAIL SUPPORT</div>
-            </div> 
-          </div>
-          <div class="pricing-card">
-              <div class="pricing-detail">
-              <h3 class="open-sans">Basic</h3>
-              <hr>
-              <h1 class="raleway"><span>$</span>0</h1>
-              <p class="grey-p italic open-sans">Free for Life</p>
-            <div class="s-tag">OUR MOST POPULAR</div>
-            </div>
-              <div class="pricing-list-container">
-                <div class="pricing-list grey-p">1 GB OF SPACE</div>
-                <div class="pricing-list grey-p">10 GB OF BANDWIDTH</div>
-                <div class="pricing-list grey-p">BASIC CUSTOMIZATION</div>
-                <div class="pricing-list grey-p">WORDPRESS INTEGRATION</div>
-                <div class="pricing-list grey-p">EMAIL SUPPORT</div>
-              </div>
-            </div>    <div class="pricing-card">
-                <div class="pricing-detail">
-                <h3 class="open-sans">Basic</h3>
-                <hr>
-                <h1 class="raleway"><span>$</span>0</h1>
-                <p class="grey-p italic open-sans">Free for Life</p>
-              <hr class="line-scheme break">
-              </div>
-                <div class="pricing-list-container">
+         <div class="pricing-cards clearfix">
+            <div class="pricing-card float-left">
+               <div class="pricing-detail">
+                  <h3 class="open-sans">Basic</h3>
+                  <hr>
+                  <h1 class="raleway"><span>$</span>0</h1>
+                  <p class="grey-p italic open-sans">Free for Life</p>
+                  <hr class="line-scheme break">
+               </div>
+               <div class="pricing-list-container">
                   <div class="pricing-list grey-p">1 GB OF SPACE</div>
                   <div class="pricing-list grey-p">10 GB OF BANDWIDTH</div>
                   <div class="pricing-list grey-p">BASIC CUSTOMIZATION</div>
                   <div class="pricing-list grey-p">WORDPRESS INTEGRATION</div>
                   <div class="pricing-list grey-p">EMAIL SUPPORT</div>
-                </div>
-              </div>
-      </div>
-      </div>
-      </div>
-      <div class="reviews">
-        <div class="reviews-container">
-          <div class="reviews-text">
-              <h1 class="raleway">PRICING OPTIONS</h1>
-              <hr class="line-width line-scheme">
-              <p class="grey-p faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </div>
             </div>
-            <div class="review-cards">
-              <div class="review-card">
-                <p class="grey-p background-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                <div class="profile">
-                  <img src="images/profile.png" alt="">
+            <div class="pricing-card float-left center-card">
+               <div class="pricing-detail">
+                  <h3 class="open-sans">Professional</h3>
+                  <hr>
+                  <h1 class="raleway"><span>$</span>19</h1>
+                  <p class="grey-p italic open-sans">Monthly Payments</p>
+                  <div class="s-tag">OUR MOST POPULAR</div>
+               </div>
+               <div class="pricing-list-container">
+                  <div class="pricing-list grey-p">1 GB OF SPACE</div>
+                  <div class="pricing-list grey-p">10 GB OF BANDWIDTH</div>
+                  <div class="pricing-list grey-p">BASIC CUSTOMIZATION</div>
+                  <div class="pricing-list grey-p">WORDPRESS INTEGRATION</div>
+                  <div class="pricing-list grey-p">EMAIL SUPPORT</div>
+               </div>
+            </div>
+            <div class="pricing-card float-left">
+               <div class="pricing-detail">
+                  <h3 class="open-sans">Enterprices</h3>
+                  <hr>
+                  <h1 class="raleway"><span>$</span>70</h1>
+                  <p class="grey-p italic open-sans">Yearly Payments</p>
+                  <hr class="line-scheme break">
+               </div>
+               <div class="pricing-list-container">
+                  <div class="pricing-list grey-p">1 GB OF SPACE</div>
+                  <div class="pricing-list grey-p">10 GB OF BANDWIDTH</div>
+                  <div class="pricing-list grey-p">BASIC CUSTOMIZATION</div>
+                  <div class="pricing-list grey-p">WORDPRESS INTEGRATION</div>
+                  <div class="pricing-list grey-p">EMAIL SUPPORT</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="reviews">
+      <div class="reviews-container container">
+         <div class="reviews-text">
+            <h1 class="raleway">WHAT OUR CUSTOMERS ARE SAYING</h1>
+            <hr class="line-width line-scheme">
+            <p class="grey-p faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         </div>
+         <div class="review-cards clearfix">
+            <div class="review-card float-left">
+               <p class="grey-p background-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+               <div class="profile">
+                  <img src="images/profile.png" alt="profile">
                   <h2>Jeremy H.</h2>
                   <p class="grey-p">Manager</p>
-                </div>
-              </div>
-              <div class="review-card">
-                  <p class="grey-p background-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                  <div class="profile">
-                    <img src="images/profile.png" alt="">
-                    <h2>Jeremy H.</h2>
-                    <p class="grey-p">Manager</p>
-                  </div>   
+               </div>
             </div>
-            <div class="review-card">
-                <p class="grey-p background-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-                <div class="profile">
-                  <img src="images/profile.png" alt="">
+            <div class="review-card float-left">
+               <p class="grey-p background-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+               <div class="profile">
+                  <img src="images/profile.png" alt="profile">
                   <h2>Jeremy H.</h2>
                   <p class="grey-p">Manager</p>
-                </div>
-          </div>
-      </div>
-      </div>
-      </div>
-      <div class="style-box">
-        <div class="style-box-container">
-          <h1 class="raleway">STYLISH AXURE DESIGN</h1>
-          <hr class="line-width">
-          <p class="">Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
-          <button class="btn-special">Downlaod</button>
-        </div>
-      </div>
-      <div class="contact"> 
-            <div class="contact-text">
-              <h1 class="raleway">CONTACT US</h1>
-              <hr class="line-width line-scheme">
-              <p class="grey-p faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            <div class="form-sm">
-              <input type="text" placeholder="Name" class="form-input contact-input">
-              <input type="text" placeholder="Email" class="form-input contact-input">
-              <input type="text" placeholder="Subject" class="form-input contact-input">
+               </div>
             </div>
-            <div class="form-lg">
-                <textarea type="text" placeholder="Name" class="form-input contact-input-lg"></textarea>
-              </div>
-              <div class="btn">
-              <button class="scheme-button">Send Massage</button>
+            <div class="review-card float-left">
+               <p class="grey-p background-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+                  accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+               <div class="profile">
+                  <img src="images/profile.png" alt="profile">
+                  <h2>Jeremy H.</h2>
+                  <p class="grey-p">Manager</p>
+               </div>
             </div>
+         </div>
       </div>
-      <footer>
-        <div class="footer-icons">
-            <i class="icon-facebook footer-icons"></i>
-            <i class="icon-twitter footer-icons"></i>
-            <i class="icon-google-plus footer-icons"></i>
-            <i class="icon-pinterest footer-icons"></i>
-            <i class="icon-instagram footer-icons"></i>
-            <i class="icon-stumbleupon footer-icons"></i>
-            <i class="icon-rss footer-icons"></i>
-        </div>
-        <span class="grey-p">@2015 Axure Theme</span>
-      </footer>
-   </body>
+   </div>
+   <div class="style-box">
+      <div class="style-box-container ">
+         <div class="container">
+            <h1 class="raleway">STYLISH AXURE DESIGN</h1>
+            <hr class="line-width">
+            <p class="">Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
+               ever!</p>
+            <button class="btn-special">Downlaod</button>
+         </div>
+      </div>
+   </div>
+   <div class="contact">
+      <div class="contact-text">
+         <h1 class="raleway">CONTACT US</h1>
+         <hr class="line-width line-scheme">
+         <p class="grey-p faq-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="form-sm">
+         <input type="text" placeholder="Name" class="form-input contact-input">
+         <input type="text" placeholder="Email" class="form-input contact-input">
+         <input type="text" placeholder="Subject" class="form-input contact-input">
+      </div>
+      <div class="form-lg">
+         <textarea type="text" placeholder="Name" class="form-input contact-input-lg"></textarea>
+      </div>
+      <div class="btn">
+         <button class="scheme-button">Send Massage</button>
+      </div>
+   </div>
+   <footer>
+      <div class="footer-icons">
+         <i class="icon-facebook footer-icons"></i>
+         <i class="icon-twitter footer-icons"></i>
+         <i class="icon-google-plus footer-icons"></i>
+         <i class="icon-pinterest footer-icons"></i>
+         <i class="icon-instagram footer-icons"></i>
+         <i class="icon-stumbleupon footer-icons"></i>
+         <i class="icon-rss footer-icons"></i>
+      </div>
+      <p class="grey-p footer-p">@2015 Axure Theme</p>
+   </footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+
 </html>
